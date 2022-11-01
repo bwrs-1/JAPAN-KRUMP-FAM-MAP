@@ -5,9 +5,7 @@ import Share from './App/Share'
 // import config from './config.json'
 
 const Content = () => {
-
   // const logoUrl = config.logo_image_url || `${process.env.PUBLIC_URL}/logo.svg`
-
   return (
     <div className="about">
       <div className="qrcode"><Qrcode url={window.location.href}/></div>
