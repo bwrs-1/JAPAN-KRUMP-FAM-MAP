@@ -1,11 +1,11 @@
 .tabbar
 {
-  display: flex;
+  display:flex;
+  flex-wrap: nowrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100%;
-  padding-right: 18px;
 
   ul
   {
