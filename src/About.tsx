@@ -8,6 +8,11 @@ const Content = () => {
   // const logoUrl = config.logo_image_url || `${process.env.PUBLIC_URL}/logo.svg`
   return (
     <div className="about">
+      {/* <div className="branding">
+        <img className="image" src={logoUrl} alt=""/>
+      </div>
+
+      <div className="description">{config.description}</div> */}
       <div className="qrcode"><Qrcode url={window.location.href}/></div>
       <Share />
     </div>
