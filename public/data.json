@@ -1,5 +1,5 @@
 {
-  "range": "'スポットデータ'!A1:J84",
+  "range": "'スポットデータ'!A1:J103",
   "majorDimension": "ROWS",
   "values": [
     [
@@ -9,22 +9,29 @@
       "緯度",
       "経度",
       "スポット名",
-      "紹介文",
+      "紹介文 ",
       "Instagram",
       "Twitter",
       "公式サイト"
     ],
     [
-      "2022/05/11 14:46:34",
-      "オフィス",
-      "https://geolonia.github.io/logo/geolonia-logo_b2.jpg",
-      "35.730091",
-      "139.73754",
-      "株式会社Geolonia",
-      "株式会社Geoloniaの東京オフィスです",
-      "",
-      "geoloniamap",
-      "https://geolonia.com"
+      "2022/10/31 22:51:34",
+      "大阪府",
+      "http://drive.google.com/uc?export=view&id=1I7BccfekueZlNbAT4yVYiqKhAdCssplE",
+      "34.796701",
+      "135.5096",
+      "BARRAGE FAM",
+      "test",
+      "bwrs_1"
+    ],
+    [
+      "2022/11/01 9:26:51",
+      "大阪府",
+      "https://drive.google.com/open?id=1CUnOPZsBwfMzpppgHrfjK3fwxuwDhxf5",
+      "34.679192",
+      "135.493668",
+      "BomberFam",
+      "AUJU aka BomberX"
     ]
   ]
 }
