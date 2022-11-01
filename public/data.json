@@ -1,5 +1,5 @@
 {
-  "range": "'スポットデータ'!A1:J103",
+  "range": "'スポットデータ'!A1:J102",
   "majorDimension": "ROWS",
   "values": [
     [
@@ -15,23 +15,14 @@
       "公式サイト"
     ],
     [
-      "2022/10/31 22:51:34",
+      "2022/11/01 12:14:23",
       "大阪府",
-      "http://drive.google.com/uc?export=view&id=1I7BccfekueZlNbAT4yVYiqKhAdCssplE",
-      "34.796701",
-      "135.5096",
-      "BARRAGE FAM",
-      "test",
+      "https://drive.google.com/open?id=1AMDO9_8oirFBLWjJUTpvWrb5Yal_4eup",
+      "34.790865",
+      "135.497775",
+      "BWRS #1",
+      "BARRAGE FAM/ERASER FAM/HARSH FAM/BWRS/PURGE",
       "bwrs_1"
-    ],
-    [
-      "2022/11/01 9:26:51",
-      "大阪府",
-      "http://drive.google.com/uc?export=view&id=1CUnOPZsBwfMzpppgHrfjK3fwxuwDhxf5",
-      "34.679192",
-      "135.493668",
-      "BomberFam",
-      "AUJU aka BomberX"
     ]
   ]
 }
