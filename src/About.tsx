@@ -2,11 +2,11 @@ import React from "react";
 import './About.scss'
 import Qrcode from './Qrcode'
 import Share from './App/Share'
-import config from './config.json'
+// import config from './config.json'
 
 const Content = () => {
 
-  const logoUrl = config.logo_image_url || `${process.env.PUBLIC_URL}/logo.svg`
+  // const logoUrl = config.logo_image_url || `${process.env.PUBLIC_URL}/logo.svg`
 
   return (
     <div className="about">
