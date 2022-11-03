@@ -1,5 +1,5 @@
 {
-  "range": "'スポットデータ'!A1:J106",
+  "range": "'スポットデータ'!A1:J105",
   "majorDimension": "ROWS",
   "values": [
     [
@@ -66,6 +66,15 @@
       "razor_face_is_loser"
     ],
     [
+      "2022/11/04 0:11:56",
+      "海外",
+      "https://drive.google.com/uc?id=1rUjxtG3nP7Z-TBlB__o-0dJxSnqrfEbW&export=download",
+      "34.08113",
+      "-115.177423",
+      "TEST FAM",
+      "海外対応 TEST"
+    ],
+    [
       "2022/11/01 12:14:23",
       "大阪府",
       "https://drive.google.com/uc?id=1U7Ebo_hY7Q-hrQZ6zkz_uSm7pr4HTVli&export=download",
@@ -84,15 +93,6 @@
       "HARSH FAM",
       "BIG,LIL,YOUNG,BOI",
       "bwrs_1"
-    ],
-    [
-      "2022/11/01 12:14:23",
-      "大阪府",
-      "https://drive.google.com/uc?id=1U7Ebo_hY7Q-hrQZ6zkz_uSm7pr4HTVli&export=download",
-      "34.08113",
-      "-115.177423",
-      "TEST",
-      "TEST"
     ]
   ]
 }
