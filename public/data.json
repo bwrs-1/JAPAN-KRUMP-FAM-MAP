@@ -1,5 +1,5 @@
 {
-  "range": "'スポットデータ'!A1:J104",
+  "range": "'スポットデータ'!A1:J105",
   "majorDimension": "ROWS",
   "values": [
     [
@@ -27,7 +27,7 @@
     [
       "2022/11/01 23:06:07",
       "群馬県",
-      "http://drive.google.com/uc?export=view&id=1p5DmWmyF9_xxWKjfDNrH7AxnRZzPA5Cy",
+      "https://drive.google.com/uc?id=1p5DmWmyF9_xxWKjfDNrH7AxnRZzPA5Cy&export=download",
       "36.404261",
       "139.33239",
       "RAWZEN FAM",
@@ -36,12 +36,24 @@
     [
       "2022/11/01 23:11:35",
       "大阪府",
-      "http://drive.google.com/uc?export=view&id=1rUjxtG3nP7Z-TBlB__o-0dJxSnqrfEbW",
+      "https://drive.google.com/uc?id=1rUjxtG3nP7Z-TBlB__o-0dJxSnqrfEbW&export=download",
       "34.66369",
       "135.501616",
       "BOMBER FAM",
       "Bomber,DIMIT aka TwinBomber, AUJU aka BomberX aka BWRS#12, GRIND aka KillaBomber",
       "bomber_naohiro"
+    ],
+    [
+      "2022/11/03 11:28:17",
+      "大阪府",
+      "https://drive.google.com/uc?id=1zMudN-j0wOVqAitmHWv6LpcFu2yEZF8n&export=download",
+      "34.702786",
+      "135.506294",
+      "X ONE FAM",
+      "X ONE FAM(クロスワンファム) / 日本KRUMP創世記から牽引するMUSCLE率いる関西を代表するKRUMP FAM",
+      "muscle_xone",
+      "MUSCLE_SPROUT",
+      "https://www.sprout-dance.com/"
     ],
     [
       "2022/11/01 12:14:23",
