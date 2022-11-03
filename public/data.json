@@ -1,5 +1,5 @@
 {
-  "range": "'スポットデータ'!A1:J105",
+  "range": "'スポットデータ'!A1:J106",
   "majorDimension": "ROWS",
   "values": [
     [
@@ -74,6 +74,16 @@
       "FACTORY FAM",
       "兵庫県を拠点に活動してます。",
       "factory_group078"
+    ],
+    [
+      "2022/11/04 8:01:06",
+      "秋田県",
+      "https://drive.google.com/open?id=17FzgqziNChELGIVPVOhhnD7POuZ9McJ4",
+      "39.913411",
+      "139.818656",
+      "MONK FAM",
+      "BIG MONK/CHILD MONK  ",
+      "monk_ogre_gs_mbz"
     ],
     [
       "2022/11/01 12:14:23",
