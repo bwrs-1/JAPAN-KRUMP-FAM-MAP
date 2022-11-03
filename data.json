@@ -1,5 +1,5 @@
 {
-  "range": "'スポットデータ'!A1:J106",
+  "range": "'スポットデータ'!A1:J107",
   "majorDimension": "ROWS",
   "values": [
     [
@@ -78,12 +78,22 @@
     [
       "2022/11/04 8:01:06",
       "秋田県",
-      "https://drive.google.com/open?id=17FzgqziNChELGIVPVOhhnD7POuZ9McJ4",
+      "https://drive.google.com/uc?id=17FzgqziNChELGIVPVOhhnD7POuZ9McJ4&export=download",
       "39.913411",
       "139.818656",
       "MONK FAM",
       "BIG MONK/CHILD MONK  ",
       "monk_ogre_gs_mbz"
+    ],
+    [
+      "2022/11/04 8:49:14",
+      "北海道",
+      "https://drive.google.com/uc?id=1DbgRK6rZGFNjf_Io8RxiZQ9cUn4JMgoE&export=download",
+      "43.042909",
+      "141.295755",
+      "NORTHBUCK",
+      "North buck raw",
+      "hornet_kent"
     ],
     [
       "2022/11/01 12:14:23",
