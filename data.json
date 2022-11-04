@@ -1,5 +1,5 @@
 {
-  "range": "'スポットデータ'!A1:J107",
+  "range": "'スポットデータ'!A1:J108",
   "majorDimension": "ROWS",
   "values": [
     [
@@ -114,6 +114,18 @@
       "NORTHBUCK",
       "North buck raw",
       "hornet_kent"
+    ],
+    [
+      "2022/11/04 14:09:19",
+      "愛媛県",
+      "https://drive.google.com/uc?id=15KEXJXE5OnXwZIqR8p2p3s83ip-CCmFs&export=download",
+      "33.221061",
+      "132.561513",
+      "BRAVE  FAM",
+      "愛媛県宇和島市を拠点に活動しながらKRUMPの普及活動している",
+      "tohru_kato_brave",
+      "Kato_BIGBRAVE",
+      "http://pump-up.main.jp/"
     ]
   ]
 }
