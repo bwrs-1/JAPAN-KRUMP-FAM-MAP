@@ -11,14 +11,14 @@ const Content = () => {
 
 
   return (
-    <div>
-      {/* <div className="container">
+    <div className="about-us">
+      <div className="container">
         <div className="branding">
           <div className="logo">KRUMP KNOWLEDGE</div>
-        </div> */}
-        <iframe src="https://fcdkrump.bandcamp.com/album/summer-buck-challenge"   width="100%"
-  height="670"></iframe>
-      {/* </div> */}
+        </div>
+
+        <p>Coming Soon...</p>
+      </div>
     </div>
   );
 };
