@@ -1,5 +1,5 @@
 {
-  "range": "'スポットデータ'!A1:J108",
+  "range": "'スポットデータ'!A1:J109",
   "majorDimension": "ROWS",
   "values": [
     [
@@ -126,6 +126,16 @@
       "tohru_kato_brave",
       "Kato_BIGBRAVE",
       "http://pump-up.main.jp/"
+    ],
+    [
+      "2022/11/04 18:35:03",
+      "宮城県",
+      "https://drive.google.com/uc?id=1F2MfT-nqsZKEByeE-9p6eXm6_KdYfq4_&export=download",
+      "38.229416",
+      "140.887766",
+      "EAGER FAM",
+      "EAGER / TWIN EAGER",
+      "eager_fam_japan"
     ]
   ]
 }
