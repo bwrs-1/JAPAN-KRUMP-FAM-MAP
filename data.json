@@ -1,5 +1,5 @@
 {
-  "range": "'スポットデータ'!A1:J109",
+  "range": "'スポットデータ'!A1:J110",
   "majorDimension": "ROWS",
   "values": [
     [
@@ -136,6 +136,18 @@
       "EAGER FAM",
       "EAGER / TWIN EAGER",
       "eager_fam_japan"
+    ],
+    [
+      "2022/11/04 22:13:49",
+      "沖縄県",
+      "https://drive.google.com/open?id=1okb4rhkrqLQZpWWL80ATtWPsiTr_iV9x",
+      "わかりません！！！",
+      "わかりません！",
+      "FLARE FAM",
+      "Flare 沖縄　Twin Flare 大阪　Queen Flare 東京　Lil Flare 静岡　Flare X 北海道 全国各地にFLARE FAMの魂を持った人間が活動してます！",
+      "flare_killafleshkilla",
+      "",
+      "https://youtube.com/channel/UCMnsSkhmraRShlt68ScYp9g"
     ]
   ]
 }
