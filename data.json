@@ -1,5 +1,5 @@
 {
-  "range": "'スポットデータ'!A1:J110",
+  "range": "'スポットデータ'!A1:J111",
   "majorDimension": "ROWS",
   "values": [
     [
@@ -148,6 +148,16 @@
       "flare_killafleshkilla",
       "",
       "https://youtube.com/channel/UCMnsSkhmraRShlt68ScYp9g"
+    ],
+    [
+      "2022/11/06 12:44:33",
+      "兵庫県",
+      "https://drive.google.com/open?id=17zaAN_pDeG8cUD63EGm0_IrPVlAFA-pD",
+      "34.66142",
+      "135.50269",
+      "Asura Fam",
+      "関西、東海、沖縄をそれぞれのメンバーの活動拠点とし、日々のセッションやバトルを通して仲間と切磋琢磨し合いながら、トーナメントやショーケースなどに勢力的に挑戦中！Asura(兵庫)を筆頭とし、Jr Asura(大阪)、Lil Asura(大阪)、Girl Asura(愛知)、Asura Deuce(沖縄)の5人で活動中。",
+      "asura_beno.x  "
     ]
   ]
 }
