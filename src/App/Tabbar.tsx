@@ -1,20 +1,73 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import './Tabbar.scss'
+import "./Tabbar.scss";
 
-import { FaList, FaHome, FaSearch, FaCamera, FaStickyNote } from "react-icons/fa"
-import { AiOutlineAppstore } from "react-icons/ai"
+import {
+  FaList,
+  FaHome,
+  FaSearch,
+  FaCamera,
+  FaStickyNote,
+} from "react-icons/fa";
+import { AiOutlineAppstore } from "react-icons/ai";
+import { IconButton } from "@material-ui/core";
 
 const Content = () => {
+
+  // ボタンカラー用 定数
+  const theme = "default";
+
   return (
     <div className="tabbar">
       <ul>
-        <li><Link to="/"><div className="icon"><FaHome /></div><div className="text">Map</div></Link></li>
-        <li><Link to="/list"><div className="icon"><FaList /></div><div className="text">List</div></Link></li>
-        <li><Link to="/category"><div className="icon"><FaSearch /></div><div className="text">Category</div></Link></li>
-        <li><Link to="/images"><div className="icon"><FaCamera /></div><div className="text">Search</div></Link></li>
-        <li><Link to="/knowledge"><div className="icon"><FaStickyNote /></div><div className="text">Knowledge</div></Link></li>
-        <li><Link to="/about"><div className="icon"><AiOutlineAppstore /></div><div className="text">About</div></Link></li>
+        <li>
+          <Link to="/">
+            <IconButton color={theme} aria-label="Map">
+              <FaHome />
+            </IconButton>
+            <div className="text">Map</div>
+          </Link>
+        </li>
+        <li>
+          <Link to="/list">
+            <IconButton color={theme} aria-label="list">
+              <FaList />
+            </IconButton>
+            <div className="text">List</div>
+          </Link>
+        </li>
+        <li>
+          <Link to="/category">
+            <IconButton color={theme} aria-label="category">
+              <FaSearch />
+            </IconButton>
+            <div className="text">Category</div>
+          </Link>
+        </li>
+        <li>
+          <Link to="/images">
+            <IconButton color={theme} aria-label="images">
+              <FaCamera />
+            </IconButton>
+            <div className="text">Search</div>
+          </Link>
+        </li>
+        <li>
+          <Link to="/knowledge">
+            <IconButton color={theme} aria-label="knowledge">
+              <FaStickyNote />
+            </IconButton>
+            <div className="text">Knowledge</div>
+          </Link>
+        </li>
+        <li>
+          <Link to="/about">
+            <IconButton color={theme} aria-label="about">
+              <AiOutlineAppstore />
+            </IconButton>
+            <div className="text">About</div>
+          </Link>
+        </li>
       </ul>
     </div>
   );

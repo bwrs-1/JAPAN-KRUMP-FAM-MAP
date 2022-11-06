@@ -1,4 +1,4 @@
-import './AboutUs.scss'
+import "./AboutUs.scss";
 // import config from '../config.json'
 // import { FaPlus } from 'react-icons/fa';
 
@@ -9,26 +9,42 @@ const Content = () => {
   //   }
   // }
 
-
   return (
     <div className="about-us">
       <div className="container">
         <div className="branding">
-          <div className="image"><img src={`${process.env.PUBLIC_URL}/icon-pwamap.svg`} alt=""/></div>
+          <div className="image">
+            <img src={`${process.env.PUBLIC_URL}/icon-pwamap.svg`} alt="" />
+          </div>
           <div className="logo">JAPAN KRUMP FAM MAP</div>
         </div>
 
         <p>こちらのサービスはGeolonia PWAマップで作成しています</p>
 
         <h2> Geolonia PWAマップについて</h2>
-        <p><a href="https://blog.geolonia.com/2022/05/17/pwamap-beta.html" target='_blank' rel="noreferrer">https://blog.geolonia.com/2022/05/17/pwamap-beta.html</a></p>
+        <p>
+          <a
+            href="https://blog.geolonia.com/2022/05/17/pwamap-beta.html"
+            target="_blank"
+            rel="noreferrer"
+          >
+            https://blog.geolonia.com/2022/05/17/pwamap-beta.html
+          </a>
+        </p>
 
         <h2>当サイトについて</h2>
-        <p>Geoloia PWAマップのサービスが終了した場合、こちらのサービスも終了する可能性があります。</p>
-        <p>スマートフォンから見た場合、画像の表示が遅れる もしくは 表示されない可能性があります。</p>
-
+        <p>
+          Geoloia
+          PWAマップのサービスが終了した場合、こちらのサービスも終了する可能性があります。
+        </p>
+        <p>
+          スマートフォンから見た場合、画像の表示が遅れる もしくは
+          表示されない可能性があります。
+        </p>
         <h2>掲載情報について</h2>
-        <p>入力フォームの入力内容に不備があった場合、データが反映されない場合があります。</p>
+        <p>
+          入力フォームの入力内容に不備があった場合、データが反映されない場合があります。
+        </p>
         <p>データの反映が少し遅れる場合があります。ご了承ください。</p>
         <p>掲載情報の修正、削除については BWRS#1 までご連絡ください。</p>
 
