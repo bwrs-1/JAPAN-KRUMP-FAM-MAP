@@ -2,6 +2,7 @@ import React from "react";
 import Select from 'react-select'
 import { useNavigate } from 'react-router-dom';
 import './Category.scss'
+import { FormControl } from "@material-ui/core";
 
 type Props = {
   data: Pwamap.ShopData[];
@@ -38,7 +39,7 @@ const Content = (props: Props) => {
       <div className="category">
         <div className="container">
           <div className="category-item">
-            <label htmlFor="category-select">カテゴリから選ぶ</label>
+          <FormControl fullWidth>
             <Select
               onChange={(e) => {
                 if (e) {
@@ -54,6 +55,7 @@ const Content = (props: Props) => {
                 })
               }
             />
+            </FormControl>
           </div>
 
         </div>
