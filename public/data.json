@@ -1,5 +1,5 @@
 {
-  "range": "'スポットデータ'!A1:J111",
+  "range": "'スポットデータ'!A1:J112",
   "majorDimension": "ROWS",
   "values": [
     [
@@ -158,6 +158,16 @@
       "ASURA FAM",
       "関西、東海、沖縄をそれぞれのメンバーの活動拠点とし、日々のセッションやバトルを通して仲間と切磋琢磨し合いながら、トーナメントやショーケースなどに勢力的に挑戦中！Asura(兵庫)を筆頭とし、Jr Asura(大阪)、Lil Asura(大阪)、Girl Asura(愛知)、Asura Deuce(沖縄)の5人で活動中。",
       "asura_beno.x  "
+    ],
+    [
+      "2022/11/07 19:41:19",
+      "岡山県",
+      "https://drive.google.com/open?id=16O1vLAE8fOn3OfPIO28WfHDOknjTvhM0",
+      "34.677547",
+      "133.920001",
+      "RAID FAM",
+      "現在はTWIN.YOUNG.ROWDY.PRINCEで構成されています。高知、東京、岡山とバラバラでまとまっての活動はできていませんがそれぞれが生活にKrumpを組み込んで頑張っています。まだバトルシーンなどに中々顔を出せていませんがこれからよろしくお願い致します。",
+      "naoki.raid　　　toshi.twinraid    daiboy.official   takumi"
     ]
   ]
 }
