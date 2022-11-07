@@ -1,5 +1,5 @@
 {
-  "range": "'スポットデータ'!A1:J112",
+  "range": "'スポットデータ'!A1:J113",
   "majorDimension": "ROWS",
   "values": [
     [
@@ -168,6 +168,16 @@
       "RAID FAM",
       "現在はTWIN.YOUNG.ROWDY.PRINCEで構成されています。高知、東京、岡山とバラバラでまとまっての活動はできていませんがそれぞれが生活にKrumpを組み込んで頑張っています。まだバトルシーンなどに中々顔を出せていませんがこれからよろしくお願い致します。",
       "naoki.raid　　　toshi.twinraid    daiboy.official   takumi"
+    ],
+    [
+      "2022/11/07 21:06:42",
+      "宮城県",
+      "https://drive.google.com/open?id=1zsQnhw0GqubcJEAAp_1qaMWTlEPo6B0M",
+      "38.26889",
+      "140.87194",
+      "ARMZ FAM",
+      "東北/仙台を中心に活動　Krump session&Battle[KING SWING]主宰 ",
+      "Armzfam.official"
     ]
   ]
 }
