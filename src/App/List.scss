@@ -1,13 +1,13 @@
 .shop-list
 {
-  color: #555555;
+  color: #2f3136;
   box-sizing: border-box;
   height: 100%;
   overflow: auto;
 
   .shop
   {
-    border-bottom: 1px solid #EEEEEE;
+    border-bottom: 1px solid #1d1d1d;
     padding: 16px;
     font-size: 12px;
     position: relative;
@@ -16,11 +16,6 @@
   tr
   {
     background-color: transparent !important;
-  }
-
-  .shop:nth-child(even)
-  {
-    background-color: #f7f7f7;
   }
   .shop-list-category
   {

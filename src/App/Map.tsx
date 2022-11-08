@@ -90,10 +90,10 @@ const Content = (props: Props) => {
         ],
         paint: {
           'circle-radius': 13,
-          'circle-color': '#FF0000',
+          'circle-color': '#ef9f14',
           'circle-opacity': 0.4,
-          'circle-stroke-width': 2,
-          'circle-stroke-color': '#FFFFFF',
+          'circle-stroke-width': 1,
+          'circle-stroke-color': '#000000',
           'circle-stroke-opacity': 1,
         },
       })
@@ -187,7 +187,10 @@ const Content = (props: Props) => {
 
     const map = new geolonia.Map({
       container: mapNode.current,
-      style: 'geolonia/gsi',
+      // 日本のみ対応
+      // style: 'geolonia/gsi',
+      // 全国対応
+      style: 'https://api.maptiler.com/maps/52fe0485-5021-4bcb-9bb1-7ccecdbe11e4/style.json?key=pNZ57kRwS9dOIeGPTCct',
       bounds: bounds,
       fitBoundsOptions: { padding: 50 },
     });

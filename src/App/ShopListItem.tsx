@@ -31,14 +31,19 @@ const Content = (props: Props) => {
   return (
     <>
       <div className="shop-link">
-        <Card sx={{ maxWidth: 345 }}>
+        <Card
+          sx={{
+            maxWidth: 345,
+            backgroundColor: "#282828",
+          }}
+        >
           <CardActionArea onClick={clickHandler}>
             {image && (
               <CardMedia
                 component="img"
                 height="140"
                 image={image}
-                alt="green iguana"
+                alt={props.data["スポット名"]}
               />
             )}
             <CardContent>

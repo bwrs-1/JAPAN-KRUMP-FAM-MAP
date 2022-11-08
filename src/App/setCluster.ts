@@ -6,7 +6,7 @@ const setCluster = (map: any) => {
     filter: ['has', 'point_count'],
     paint: {
       'circle-radius': 20,
-      'circle-color': '#FF0000',
+      'circle-color': '#ef9f14',
       'circle-opacity': 1.0,
     },
   })
@@ -20,7 +20,7 @@ const setCluster = (map: any) => {
       'text-color': '#FFFFFF',
     },
     layout: {
-      'text-field': '{point_count_abbreviated} 件',
+      'text-field': '{point_count_abbreviated}',
       'text-size': 12,
       'text-font': ['Noto Sans Regular'],
     },
