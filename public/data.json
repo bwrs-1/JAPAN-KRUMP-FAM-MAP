@@ -1,5 +1,5 @@
 {
-  "range": "'スポットデータ'!A1:J113",
+  "range": "'スポットデータ'!A1:J114",
   "majorDimension": "ROWS",
   "values": [
     [
@@ -178,6 +178,17 @@
       "ARMZ FAM",
       "東北/仙台を中心に活動　Krump session&Battle[KING SWING]主宰 ",
       "Armzfam.official"
+    ],
+    [
+      "2022/11/08 23:13:49",
+      "大阪府",
+      "https://drive.google.com/open?id=1swSMKnIy0xEfOnYde1HfZfcsgPtMQNAz",
+      "34.6663845",
+      "135.4953524",
+      "INSIGHT FAM",
+      "INSIGHTとYOUNG INSIGHTの2人で構成されており、大阪を中心にKRUMP battleだけじゃなくショーケースや音楽、2人共が幅広い活動をしている",
+      "yushin_insight",
+      "yushin_"
     ]
   ]
 }
