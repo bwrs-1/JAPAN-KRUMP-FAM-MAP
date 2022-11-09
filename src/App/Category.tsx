@@ -35,7 +35,7 @@ const Content = (props: Props) => {
 
   return (
     <>
-      <div className="head"></div>
+      {/* <div className="head"></div> */}
       <div className="category">
         <div className="container">
           <div className="category-item">
