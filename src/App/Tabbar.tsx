@@ -15,7 +15,7 @@ import { IconButton } from "@material-ui/core";
 const Content = () => {
 
   // ボタンカラー用 定数
-  const theme = "default";
+  const theme = "inherit";
 
   return (
     <div className="tabbar">
