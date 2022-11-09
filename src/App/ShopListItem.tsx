@@ -38,7 +38,7 @@ const Content = (props: Props) => {
                 component="img"
                 height="140"
                 image={image}
-                alt="green iguana"
+                alt={category}
               />
             )}
             <CardContent>
