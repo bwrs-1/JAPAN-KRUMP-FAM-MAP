@@ -34,6 +34,8 @@ const Content = (props: Props) => {
       interactive: false,
       zoom: 14,
       // style: `geolonia/gsi`,
+      // style:
+      //   "https://api.maptiler.com/maps/52fe0485-5021-4bcb-9bb1-7ccecdbe11e4/style.json?key=pNZ57kRwS9dOIeGPTCct",
       style:
         "https://api.maptiler.com/maps/52fe0485-5021-4bcb-9bb1-7ccecdbe11e4/style.json?key=pNZ57kRwS9dOIeGPTCct",
     });
