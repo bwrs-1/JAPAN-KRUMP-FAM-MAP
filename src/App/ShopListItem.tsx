@@ -31,7 +31,7 @@ const Content = (props: Props) => {
   return (
     <>
       <div className="shop-link">
-        <Card sx={{ maxWidth: 345 }}>
+        <Card sx={{ maxWidth: 345,bgcolor: '#36393f' }} >
           <CardActionArea onClick={clickHandler}>
             {image && (
               <CardMedia
@@ -42,7 +42,7 @@ const Content = (props: Props) => {
               />
             )}
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
+              <Typography gutterBottom variant="h5" component="div" color="common.white">
                 {props.data["スポット名"]}
               </Typography>
               <Typography variant="body2" color="text.secondary">
