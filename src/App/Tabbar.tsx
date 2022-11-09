@@ -25,7 +25,7 @@ const Content = () => {
             <IconButton color={theme} aria-label="Map">
               <FaHome />
             </IconButton>
-            <div className="text">Map</div>
+            {/* <div className="text">Map</div> */}
           </Link>
         </li>
         <li>
@@ -33,7 +33,7 @@ const Content = () => {
             <IconButton color={theme} aria-label="list">
               <FaList />
             </IconButton>
-            <div className="text">List</div>
+            {/* <div className="text">List</div> */}
           </Link>
         </li>
         <li>
@@ -41,7 +41,7 @@ const Content = () => {
             <IconButton color={theme} aria-label="category">
               <FaSearch />
             </IconButton>
-            <div className="text">Category</div>
+            {/* <div className="text">Category</div> */}
           </Link>
         </li>
         <li>
@@ -49,7 +49,7 @@ const Content = () => {
             <IconButton color={theme} aria-label="images">
               <FaCamera />
             </IconButton>
-            <div className="text">Search</div>
+            {/* <div className="text">Search</div> */}
           </Link>
         </li>
         <li>
@@ -57,7 +57,7 @@ const Content = () => {
             <IconButton color={theme} aria-label="knowledge">
               <FaStickyNote />
             </IconButton>
-            <div className="text">Knowledge</div>
+            {/* <div className="text">Knowledge</div> */}
           </Link>
         </li>
         <li>
@@ -65,7 +65,7 @@ const Content = () => {
             <IconButton color={theme} aria-label="about">
               <AiOutlineAppstore />
             </IconButton>
-            <div className="text">About</div>
+            {/* <div className="text">About</div> */}
           </Link>
         </li>
       </ul>
