@@ -33,7 +33,9 @@ const Content = (props: Props) => {
       container: mapNode.current,
       interactive: false,
       zoom: 14,
-      style: `geolonia/gsi`,
+      // style: `geolonia/gsi`,
+      style:
+        "https://api.maptiler.com/maps/52fe0485-5021-4bcb-9bb1-7ccecdbe11e4/style.json?key=pNZ57kRwS9dOIeGPTCct",
     });
     setMap(nextMap);
   }, [shop, mapNode]);
@@ -46,7 +48,6 @@ const Content = (props: Props) => {
     let result: any = "";
     if (text !== void 0) {
       return text.split(/(\r\n)|(\n)|(\r)/g).map((line, i) => {
-        
         if (line === "\r\n" || line === "\n" || line === "\r") {
           result = <br key={i} />;
         } else if (line !== undefined) {
