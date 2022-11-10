@@ -1,0 +1,39 @@
+{
+  "range": "'海外'!A1:J102",
+  "majorDimension": "ROWS",
+  "values": [
+    [
+      "タイムスタンプ",
+      "カテゴリ",
+      "画像",
+      "緯度",
+      "経度",
+      "スポット名",
+      "紹介文",
+      "Instagram",
+      "Twitter",
+      "Official website URL"
+    ],
+    [
+      "2022/11/10 14:24:37",
+      "海外",
+      "https://drive.google.com/uc?id=12QzvJYKLzs3ckI_9pLOm_18M87EaNW58&export=download",
+      "29.818033",
+      "-95.347737",
+      "RUGA FAM",
+      "TEST"
+    ],
+    [
+      "2022/11/10 15:40:30",
+      "Australia",
+      "https://drive.google.com/open?id=1e1sqWbwG4AQ1MkboRU9gz5HbMWcBc-V6",
+      "-33.917532",
+      "151.182688",
+      "MUG三N™ FAM",
+      "MUG三N™ FAM formerly known as RUFFBOII FAM which is a krump family that consist of 5 members mainly based in Australia with 1 overseas member in Japan (Osaka)",
+      "johhnymug3n",
+      "",
+      "www.mug3nstack.com"
+    ]
+  ]
+}
