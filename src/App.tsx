@@ -74,6 +74,53 @@ const App = () => {
       });
   }, [])
 
+  // 海外対応
+  // React.useEffect(() => {
+  //   fetch(`${process.env.PUBLIC_URL}/data_other.json?timestamp=${new Date().getTime()}`)
+  //     .then((response) => {
+  //       return response.ok ? response.text() : Promise.reject(response.status);
+  //     })
+  //     .then((fetchedData) => {
+
+  //       const data = JSON.parse(fetchedData)
+
+  //       if ('values' in data === false) {
+  //         console.log("No Data Found at Spreadsheet")
+  //         setShopList([])
+  //         return
+  //       }
+
+  //       let features = table2json(data.values);
+
+  //       const nextShopList: Pwamap.ShopData[] = []
+  //       for (let i = 0; i < features.length; i++) {
+  //         const feature = features[i] as Pwamap.ShopData
+
+  //         if (!feature['緯度'] || !feature['経度'] || !feature['スポット名']) {
+  //           continue;
+  //         }
+  //         if (!feature['緯度'].match(/^-?[0-9]+(\.[0-9]+)?$/)) {
+  //           continue
+  //         }
+  //         if (!feature['経度'].match(/^-?[0-9]+(\.[0-9]+)?$/)) {
+  //           continue
+  //         }
+
+  //         const shop = {
+  //           ...feature,
+  //           index: i
+  //         }
+
+  //         nextShopList.push(shop)
+  //       }
+
+  //       sortShopList(nextShopList).then((sortedShopList) => {
+  //         setShopList(sortedShopList)
+  //       })
+
+  //     });
+  // }, [])
+
   return (
     <div className="app">
       <div className="app-body">
