@@ -1,10 +1,10 @@
 import React from "react";
 import Links from "./Links";
 import "./Shop.scss";
-import { AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import { makeDistanceLabelText } from "./distance-label";
-import { Typography } from "@material-ui/core";
+import { IconButton, Typography } from "@material-ui/core";
+import CloseIcon from '@mui/icons-material/Close';
 
 type Props = {
   shop: Pwamap.ShopData;
@@ -66,16 +66,21 @@ const Content = (props: Props) => {
   return (
     <div className="shop-single">
       <div className="head">
-        <button onClick={clickHandler}>
-          <AiOutlineClose size="16px" color="#FFFFFF" />
-        </button>
+          <IconButton onClick={clickHandler} aria-label="close" color="secondary">
+            <CloseIcon />
+          </IconButton>
       </div>
       <div className="container">
         {shop ? (
           <>
-            <Typography gutterBottom variant="h4" component="div" color="common.white">
-                {shop["スポット名"]}
-              </Typography>
+            <Typography
+              gutterBottom
+              variant="h4"
+              component="div"
+              color="common.white"
+            >
+              {shop["スポット名"]}
+            </Typography>
             <div>
               <span className="nowrap">
                 <Link to={`/list?category=${category}`}>
@@ -108,9 +113,15 @@ const Content = (props: Props) => {
             {/* <p style={{ margin: "24px 0", wordBreak: "break-all" }}>
               {toBreakLine(content)}
             </p> */}
-            <Typography style={{ margin: "24px 0", wordBreak: "break-all" }} gutterBottom variant="button" display="block" color="common.white">
-            {toBreakLine(content)}
-              </Typography>
+            <Typography
+              style={{ margin: "24px 0", wordBreak: "break-all" }}
+              gutterBottom
+              variant="button"
+              display="block"
+              color="common.white"
+            >
+              {toBreakLine(content)}
+            </Typography>
 
             <div
               ref={mapNode}
