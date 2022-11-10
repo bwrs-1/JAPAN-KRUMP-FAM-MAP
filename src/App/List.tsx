@@ -129,7 +129,16 @@ const Content = (props: Props) => {
   return (
     <div id="shop-list" className="shop-list">
       {queryCategory && (
-        <div className="shop-list-category">{`Category：${queryCategory}`}</div>
+        <div className="shop-list-category">
+          <Typography
+            gutterBottom
+            variant="h6"
+            component="div"
+            color="common.white"
+          >
+            {`Category：${queryCategory}`}
+          </Typography>
+        </div>
       )}
 
       <InfiniteScroll

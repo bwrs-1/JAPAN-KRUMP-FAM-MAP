@@ -4,6 +4,7 @@ import "./Shop.scss";
 import { AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import { makeDistanceLabelText } from "./distance-label";
+import { Typography } from "@material-ui/core";
 
 type Props = {
   shop: Pwamap.ShopData;
@@ -66,13 +67,15 @@ const Content = (props: Props) => {
     <div className="shop-single">
       <div className="head">
         <button onClick={clickHandler}>
-          <AiOutlineClose size="16px" color="#FFFFFF" /> 閉じる
+          <AiOutlineClose size="16px" color="#FFFFFF" />
         </button>
       </div>
       <div className="container">
         {shop ? (
           <>
-            <h2>{shop["スポット名"]}</h2>
+            <Typography gutterBottom variant="h4" component="div" color="common.white">
+                {shop["スポット名"]}
+              </Typography>
             <div>
               <span className="nowrap">
                 <Link to={`/list?category=${category}`}>
@@ -102,9 +105,12 @@ const Content = (props: Props) => {
               />
             )}
 
-            <p style={{ margin: "24px 0", wordBreak: "break-all" }}>
+            {/* <p style={{ margin: "24px 0", wordBreak: "break-all" }}>
               {toBreakLine(content)}
-            </p>
+            </p> */}
+            <Typography style={{ margin: "24px 0", wordBreak: "break-all" }} gutterBottom variant="button" display="block" color="common.white">
+            {toBreakLine(content)}
+              </Typography>
 
             <div
               ref={mapNode}
