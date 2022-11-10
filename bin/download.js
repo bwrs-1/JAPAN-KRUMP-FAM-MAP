@@ -81,10 +81,10 @@ const fetchDataSetEnv = async () => {
       name: "スポットデータ",
       exportFilePath: "/public/data.json"
     },
-    {
-      name: "海外",
-      exportFilePath: "/public/data.json"
-    },
+    // {
+    //   name: "海外",
+    //   exportFilePath: "/public/data.json"
+    // },
     {
       name: "基本データ",
       exportFilePath: "/src/config.json"
