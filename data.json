@@ -1,5 +1,5 @@
 {
-  "range": "'スポットデータ'!A1:J114",
+  "range": "'スポットデータ'!A1:J115",
   "majorDimension": "ROWS",
   "values": [
     [
@@ -189,6 +189,15 @@
       "INSIGHTとYOUNG INSIGHTの2人で構成されており、大阪を中心にKRUMP battleだけじゃなくショーケースや音楽、2人共が幅広い活動をしている",
       "yushin_insight",
       "yushin_"
+    ],
+    [
+      "2022/11/10 14:24:37",
+      "海外",
+      "https://drive.google.com/uc?id=12QzvJYKLzs3ckI_9pLOm_18M87EaNW58&export=download",
+      "29.818033",
+      "-95.347737",
+      "RUGA FAM",
+      "TEST"
     ]
   ]
 }
