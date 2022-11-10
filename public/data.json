@@ -1,5 +1,5 @@
 {
-  "range": "'スポットデータ'!A1:J113",
+  "range": "'スポットデータ'!A1:J114",
   "majorDimension": "ROWS",
   "values": [
     [
@@ -189,6 +189,16 @@
       "INSIGHTとYOUNG INSIGHTの2人で構成されており、大阪を中心にKRUMP battleだけじゃなくショーケースや音楽、2人共が幅広い活動をしている",
       "yushin_insight",
       "yushin_"
+    ],
+    [
+      "2022/11/10 21:10:30",
+      "高知県（Japan）",
+      "https://drive.google.com/uc?id=1IvfQGUcJYh-PNqj0x2L5tbotLs8x4gh6&export=download",
+      "33.552806",
+      "133.529851",
+      "NASTY FAM",
+      "Big、Ghost、、、。 四国・高知の地でセッション、ワークショップを定期的に開催中。",
+      "nasty_twinevk_kidfactory"
     ],
     [
       "2022/11/10 15:40:30",
