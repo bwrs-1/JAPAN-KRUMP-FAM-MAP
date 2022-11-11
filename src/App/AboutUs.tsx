@@ -1,8 +1,8 @@
 import { Fab, Typography } from "@material-ui/core";
 import "./AboutUs.scss";
 import config from "../config.json";
-// import { FaPlus } from "react-icons/fa";
-import AddIcon from '@mui/icons-material/Add';
+import { FaPlus } from "react-icons/fa";
+// import AddIcon from "@mui/icons-material/Add";
 
 const Content = () => {
   const clickHandler = () => {
@@ -135,10 +135,10 @@ const Content = () => {
             </Typography>
             <div className="goto-form">
               <Fab color="primary" aria-label="add" onClick={clickHandler}>
-                <AddIcon />
+                <FaPlus color="#FFFFFF" />
               </Fab>
               {/* <button>
-                <FaPlus color="#FFFFFF" onClick={clickHandler} />
+                <AddIcon />
               </button> */}
             </div>
           </>
