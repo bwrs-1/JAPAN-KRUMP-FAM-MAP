@@ -4,9 +4,9 @@ import "./Tabbar.scss";
 
 import {
   FaList,
-  FaHome,
+  FaMap,
   FaSearch,
-  FaCamera,
+  FaRegImages,
   FaStickyNote,
 } from "react-icons/fa";
 import { AiOutlineAppstore } from "react-icons/ai";
@@ -23,7 +23,7 @@ const Content = () => {
         <li>
           <Link to="/">
             <IconButton color={theme} aria-label="Map">
-              <FaHome />
+              <FaMap />
             </IconButton>
             {/* <div className="text">Map</div> */}
           </Link>
@@ -47,7 +47,7 @@ const Content = () => {
         <li>
           <Link to="/images">
             <IconButton color={theme} aria-label="images">
-              <FaCamera />
+              <FaRegImages />
             </IconButton>
             {/* <div className="text">Search</div> */}
           </Link>
