@@ -1,4 +1,5 @@
-import './AboutUs.scss'
+import { Typography } from "@material-ui/core";
+import "./AboutUs.scss";
 // import config from '../config.json'
 // import { FaPlus } from 'react-icons/fa';
 
@@ -9,15 +10,29 @@ const Content = () => {
   //   }
   // }
 
-
   return (
     <div className="about-us">
       <div className="container">
         <div className="branding">
-          <div className="logo">KRUMP KNOWLEDGE</div>
+          <div className="logo">
+            <Typography
+              gutterBottom
+              variant="h4"
+              component="div"
+              color="common.white"
+            >
+              KRUMP KNOWLEDGE
+            </Typography>
+          </div>
         </div>
-
-        <p>Coming Soon...</p>
+        <Typography
+          gutterBottom
+          variant="h4"
+          component="div"
+          color="common.white"
+        >
+          <p>Coming Soon...</p>
+        </Typography>
       </div>
     </div>
   );
