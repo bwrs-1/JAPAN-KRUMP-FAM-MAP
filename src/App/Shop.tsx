@@ -4,7 +4,7 @@ import "./Shop.scss";
 import { Link } from "react-router-dom";
 import { makeDistanceLabelText } from "./distance-label";
 import { IconButton, Typography } from "@material-ui/core";
-import CloseIcon from '@mui/icons-material/Close';
+import { AiOutlineClose } from "react-icons/ai";
 
 type Props = {
   shop: Pwamap.ShopData;
@@ -66,9 +66,9 @@ const Content = (props: Props) => {
   return (
     <div className="shop-single">
       <div className="head">
-          <IconButton onClick={clickHandler} aria-label="close" color="secondary">
-            <CloseIcon />
-          </IconButton>
+        <IconButton onClick={clickHandler} aria-label="close" color="secondary">
+          <AiOutlineClose size="16px" color="#FFFFFF" />
+        </IconButton>
       </div>
       <div className="container">
         {shop ? (
