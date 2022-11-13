@@ -1,5 +1,5 @@
 {
-  "range": "'スポットデータ'!A1:J114",
+  "range": "'スポットデータ'!A1:J115",
   "majorDimension": "ROWS",
   "values": [
     [
@@ -220,6 +220,16 @@
       "NASTY FAM",
       "Big、Ghost、、、。 四国・高知の地でセッション、ワークショップを定期的に開催中。",
       "nasty_twinevk_kidfactory"
+    ],
+    [
+      "2022/11/13 21:19:51",
+      "京都府（Japan）",
+      "",
+      "35.072075",
+      "135.755309",
+      "Evoke Fam",
+      "Evoke from here. みんな魂で繋がってます。",
+      "evoke_fam"
     ],
     [
       "2022/11/11 11:17:05",
