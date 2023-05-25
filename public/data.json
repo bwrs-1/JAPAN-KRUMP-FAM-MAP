@@ -1,7 +1,305 @@
 {
-  "error": {
-    "code": 503,
-    "message": "The service is currently unavailable.",
-    "status": "UNAVAILABLE"
-  }
+  "range": "'スポットデータ'!A1:J116",
+  "majorDimension": "ROWS",
+  "values": [
+    [
+      "タイムスタンプ",
+      "カテゴリ",
+      "画像",
+      "緯度",
+      "経度",
+      "スポット名",
+      "紹介文",
+      "Instagram",
+      "Twitter",
+      "公式サイト"
+    ],
+    [
+      "2022/11/01 12:14:23",
+      "大阪府（Japan）",
+      "https://drive.google.com/uc?id=1sr9fJroManz5zYc3-Gy-CAw2iD_HDx5V&export=download",
+      "34.792635",
+      "135.497614",
+      "BARRAGE FAM",
+      "BIG,TWIN,X,YOUNG,KID,RUGGED,MAAD,MGR",
+      "bwrs_1"
+    ],
+    [
+      "2022/11/01 12:14:23",
+      "大阪府（Japan）",
+      "https://drive.google.com/uc?id=1VgaaAH-QXZ6wdwLIP8s_swYhw41LXANR&export=download",
+      "34.792635",
+      "135.497614",
+      "ERASER FAM",
+      "大阪を中心に活動するFam。Big Twin Jr Lil Rowdy Jdotの6人で構成されている。大阪、京都、北海道、ドイツといったそれぞれの場所でkrumpをしている。",
+      "bwrs_1"
+    ],
+    [
+      "2022/11/01 12:14:23",
+      "大阪府（Japan）",
+      "https://drive.google.com/uc?id=19dXQeopJjWODOZfhZHaYOBz7aiOL4ycF&export=download",
+      "34.792635",
+      "135.497614",
+      "HARSH FAM",
+      "BIG,LIL,YOUNG,BOI",
+      "bwrs_1"
+    ],
+    [
+      "2022/11/01 23:06:07",
+      "群馬県（Japan）",
+      "https://drive.google.com/uc?id=1p5DmWmyF9_xxWKjfDNrH7AxnRZzPA5Cy&export=download",
+      "36.404261",
+      "139.33239",
+      "RAWZEN FAM",
+      "Big Rawzenを筆頭に、群馬唯一のKrump Family"
+    ],
+    [
+      "2022/11/01 23:11:35",
+      "大阪府（Japan）",
+      "https://drive.google.com/uc?id=1rUjxtG3nP7Z-TBlB__o-0dJxSnqrfEbW&export=download",
+      "34.66369",
+      "135.501616",
+      "BOMBER FAM",
+      "Bomber,DIMIT aka TwinBomber, AUJU aka BomberX aka BWRS#12, GRIND aka KillaBomber",
+      "bomber_naohiro"
+    ],
+    [
+      "2022/11/03 11:28:17",
+      "大阪府（Japan）",
+      "https://drive.google.com/uc?id=1zMudN-j0wOVqAitmHWv6LpcFu2yEZF8n&export=download",
+      "34.702786",
+      "135.506294",
+      "X ONE FAM",
+      "X ONE FAM(クロスワンファム) / 日本KRUMP創世記から牽引するMUSCLE率いる関西を代表するKRUMP FAM",
+      "muscle_xone",
+      "MUSCLE_SPROUT",
+      "https://www.sprout-dance.com/"
+    ],
+    [
+      "2022/11/03 23:41:50",
+      "広島県（Japan）",
+      "https://drive.google.com/uc?id=1n1YRdb9x3F9ZzwvICXc1lkwYA7H4I0Ku&export=download",
+      "34.3852",
+      "132.4552",
+      "RAZOR FACE FAM",
+      "広島を拠点に活動させていただいてます。Razor Faceというものです。広島にはRazor Face famとLusit Famがあり、どちらのfamも勢力的に活動しています。Razor Face famはJr Razor FaceとSoulja Razor Faceの二人が加入しています。広島のクランパーは他にもおり、総勢10人程度で活動させていたただいております。活動内容は、セッション会や練習会を開いたりしています。私個人としての活動は作詞、作曲活動、アート、インストラクターなどしています。",
+      "razor_face_is_loser"
+    ],
+    [
+      "2022/11/04 0:27:08",
+      "兵庫県（Japan）",
+      "https://drive.google.com/uc?id=1NTJ1f23XQsamjNYyRVt15lxxySfb21zv&export=download",
+      "34.650577",
+      "134.991792",
+      "FACTORY FAM",
+      "兵庫県を拠点に活動してます。",
+      "factory_group078"
+    ],
+    [
+      "2022/11/04 8:01:06",
+      "秋田県（Japan）",
+      "https://drive.google.com/uc?id=17FzgqziNChELGIVPVOhhnD7POuZ9McJ4&export=download",
+      "39.913411",
+      "139.818656",
+      "MONK FAM",
+      "BIG MONK/CHILD MONK  ",
+      "monk_ogre_gs_mbz"
+    ],
+    [
+      "2022/11/04 8:49:14",
+      "北海道（Japan）",
+      "https://drive.google.com/uc?id=1DbgRK6rZGFNjf_Io8RxiZQ9cUn4JMgoE&export=download",
+      "43.042909",
+      "141.295755",
+      "HORNET FAM",
+      "North buck raw",
+      "hornet_kent"
+    ],
+    [
+      "2022/11/04 14:09:19",
+      "愛媛県（Japan）",
+      "https://drive.google.com/uc?id=15KEXJXE5OnXwZIqR8p2p3s83ip-CCmFs&export=download",
+      "33.221061",
+      "132.561513",
+      "BRAVE  FAM",
+      "愛媛県宇和島市を拠点に活動しながらKRUMPの普及活動している",
+      "tohru_kato_brave",
+      "Kato_BIGBRAVE",
+      "http://pump-up.main.jp/"
+    ],
+    [
+      "2022/11/04 18:35:03",
+      "宮城県（Japan）",
+      "https://drive.google.com/uc?id=1F2MfT-nqsZKEByeE-9p6eXm6_KdYfq4_&export=download",
+      "38.229416",
+      "140.887766",
+      "EAGER FAM",
+      "EAGER / TWIN EAGER",
+      "eager_fam_japan"
+    ],
+    [
+      "2022/11/04 22:13:49",
+      "沖縄県（Japan）",
+      "https://drive.google.com/uc?id=1okb4rhkrqLQZpWWL80ATtWPsiTr_iV9x&export=download",
+      "26.164483",
+      "127.720612",
+      "FLARE FAM",
+      "Flare 沖縄　Twin Flare 大阪　Queen Flare 東京　Lil Flare 静岡　Flare X 北海道 全国各地にFLARE FAMの魂を持った人間が活動してます！",
+      "flare_killafleshkilla",
+      "",
+      "https://youtube.com/channel/UCMnsSkhmraRShlt68ScYp9g"
+    ],
+    [
+      "2022/11/06 12:44:33",
+      "兵庫県（Japan）",
+      "https://drive.google.com/uc?id=17zaAN_pDeG8cUD63EGm0_IrPVlAFA-pD&export=download",
+      "34.66142",
+      "135.50269",
+      "ASURA FAM",
+      "関西、東海、沖縄をそれぞれのメンバーの活動拠点とし、日々のセッションやバトルを通して仲間と切磋琢磨し合いながら、トーナメントやショーケースなどに勢力的に挑戦中！Asura(兵庫)を筆頭とし、Jr Asura(大阪)、Lil Asura(大阪)、Girl Asura(愛知)、Asura Deuce(沖縄)の5人で活動中。",
+      "asura_beno.x  "
+    ],
+    [
+      "2022/11/07 19:41:19",
+      "岡山県（Japan）",
+      "https://drive.google.com/uc?id=16O1vLAE8fOn3OfPIO28WfHDOknjTvhM0&export=download",
+      "34.677547",
+      "133.920001",
+      "RAID FAM",
+      "現在はTWIN.YOUNG.ROWDY.PRINCEで構成されています。高知、東京、岡山とバラバラでまとまっての活動はできていませんがそれぞれが生活にKrumpを組み込んで頑張っています。まだバトルシーンなどに中々顔を出せていませんがこれからよろしくお願い致します。",
+      "naoki.raid"
+    ],
+    [
+      "2022/11/07 21:06:42",
+      "宮城県（Japan）",
+      "https://drive.google.com/uc?id=1zsQnhw0GqubcJEAAp_1qaMWTlEPo6B0M&export=download",
+      "38.26889",
+      "140.87194",
+      "ARMZ FAM",
+      "東北/仙台を中心に活動　Krump session&Battle[KING SWING]主宰 ",
+      "Armzfam.official"
+    ],
+    [
+      "2022/11/08 23:13:49",
+      "大阪府（Japan）",
+      "https://drive.google.com/uc?id=1swSMKnIy0xEfOnYde1HfZfcsgPtMQNAz&export=download",
+      "34.6663845",
+      "135.4953524",
+      "INSIGHT FAM",
+      "INSIGHTとYOUNG INSIGHTの2人で構成されており、大阪を中心にKRUMP battleだけじゃなくショーケースや音楽、2人共が幅広い活動をしている",
+      "yushin_insight",
+      "yushin_"
+    ],
+    [
+      "2022/11/10 14:24:37",
+      "United States",
+      "https://drive.google.com/uc?id=12QzvJYKLzs3ckI_9pLOm_18M87EaNW58&export=download",
+      "29.818033",
+      "-95.347737",
+      "RUGA FAM",
+      "TEST"
+    ],
+    [
+      "2022/11/10 15:40:30",
+      "Australia",
+      "https://drive.google.com/uc?id=1e1sqWbwG4AQ1MkboRU9gz5HbMWcBc-V6&export=download",
+      "-33.917532",
+      "151.182688",
+      "MUG三N™ FAM",
+      "MUG三N™ FAM formerly known as RUFFBOII FAM which is a krump family that consist of 5 members mainly based in Australia with 1 overseas member in Japan (Osaka)",
+      "johhnymug3n",
+      "",
+      "www.mug3nstack.com"
+    ],
+    [
+      "2022/11/10 21:10:30",
+      "高知県（Japan）",
+      "https://drive.google.com/uc?id=1IvfQGUcJYh-PNqj0x2L5tbotLs8x4gh6&export=download",
+      "33.552806",
+      "133.529851",
+      "NASTY FAM",
+      "Big、Ghost、、、。 四国・高知の地でセッション、ワークショップを定期的に開催中。",
+      "nasty_twinevk_kidfactory"
+    ],
+    [
+      "2022/11/13 21:19:51",
+      "京都府（Japan）",
+      "https://drive.google.com/uc?id=1p1QyykPCGlYZlwc7zN-N_tBMeHggGci4&export=download",
+      "35.072075",
+      "135.755309",
+      "Evoke Fam",
+      "Evoke from here. みんな魂で繋がってます。",
+      "evoke_fam"
+    ],
+    [
+      "2023/01/30 1:32:49",
+      "愛知県（Japan）",
+      "",
+      "35.16857919",
+      "136.9103965",
+      "RELATE FAM",
+      "Boi,Kidの3人で活動しています。メインはストリート。sessionやバトルで各々表現できるよう研鑽を重ねています。",
+      "ryota.jrsteel.relate.lilip"
+    ],
+    [
+      "2022/11/11 11:17:05",
+      "Australia",
+      "https://drive.google.com/uc?id=1g11gC2E6CiQpW3hqwB9yanncenKpG6F6&export=download",
+      "-31.952441",
+      "115.837716",
+      "H.O.O.D. Fam",
+      "Fam Members:  H.O.O.D., LadyHOOD, BabyHOOD, LilHOOD",
+      "the.mdmc"
+    ],
+    [
+      "2022/11/11 13:34:13",
+      "United States",
+      "https://drive.google.com/uc?id=1DIIssn4Z2GldFWKRMvlbWHH5eAFTvSe0&export=download",
+      "32.7767",
+      "-96.797",
+      "RAPTURE FAM",
+      "Kidd Rapture",
+      "ghxst_of_grvnd"
+    ],
+    [
+      "2022/11/11 13:36:01",
+      "United States",
+      "https://drive.google.com/uc?id=1DIIssn4Z2GldFWKRMvlbWHH5eAFTvSe0&export=download",
+      "32.7767",
+      "-96.797",
+      "ENSANITY FAM",
+      "Twinn EnSanity",
+      "ghxst_of_grvnd"
+    ],
+    [
+      "2022/11/11 14:12:50",
+      "United States",
+      "https://drive.google.com/uc?id=1dnw6hYx-0z6UW3OfmPK4tKz0VWulSEeQ&export=download",
+      "42.925733",
+      "-78.87359",
+      "NBHTFW FAMILY ",
+      "22 members",
+      "rexx.franklin"
+    ],
+    [
+      "2022/11/12 13:42:02",
+      "Philippines",
+      "https://drive.google.com/uc?id=19oREUoNByfuwJtY6pdm7tdKIKQEtoPR7&export=download",
+      "14.550107",
+      "121.039939",
+      "BAUSS x FIRENATION",
+      "BAUSS x TORCH x FIRENATION: Guardians of our people 💪 led by Big Bauss Torch the FireLord"
+    ],
+    [
+      "2022/12/30 0:11:15",
+      "United States",
+      "https://drive.google.com/uc?id=1Ak-oUwICDj1Rsor_7Eh76oFZvwWZESPA&export=download",
+      "29.81949702",
+      "-95.36363277",
+      "JUDGEZ",
+      "Judgez leaders community drivers. Foundationhtx. BareWitness.. savage kulture.. soreal. All connected to judgez !",
+      "Judge300",
+      "Judge300 "
+    ]
+  ]
 }
