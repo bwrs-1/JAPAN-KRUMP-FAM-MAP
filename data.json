@@ -1,5 +1,5 @@
 {
-  "range": "'スポットデータ'!A1:J116",
+  "range": "'スポットデータ'!A1:J117",
   "majorDimension": "ROWS",
   "values": [
     [
@@ -241,6 +241,16 @@
       "RELATE FAM",
       "Boi,Kidの3人で活動しています。メインはストリート。sessionやバトルで各々表現できるよう研鑽を重ねています。",
       "ryota.jrsteel.relate.lilip"
+    ],
+    [
+      "2023/11/26 23:39:58",
+      "大阪府（Japan）",
+      "",
+      "34.517806",
+      "135.425847",
+      "SHAZOO FAM",
+      "SHAZOO / TWIN SHAZOO / Jr SHAZOO/ micro SHAZOO/ GIRL SHAZOO/ Lil SHAZOO/ princess SHAZOO/ Prince SHAZOO からなる南大阪を拠点に名古屋、東京のイベントにも積極的に参加し、KRUMP BATTLE だけでなくALLSTYLE BATTLEにも積極的に参加し輝かしい実績を残してるFAM",
+      "shazoo31o4"
     ],
     [
       "2022/11/11 11:17:05",
