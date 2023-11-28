@@ -1,5 +1,5 @@
 {
-  "range": "'スポットデータ'!A1:J118",
+  "range": "'スポットデータ'!A1:J119",
   "majorDimension": "ROWS",
   "values": [
     [
@@ -261,6 +261,16 @@
       "WEIGHT FAM",
       "BigWeight、JrWeight、SouljaWeight 北海道札幌市のストリートを中心に常にリアルを求めて活動してます",
       "weight_50northcreate blvst_ryoma void_souljaweight"
+    ],
+    [
+      "2023/11/28 22:47:39",
+      "北海道（Japan）",
+      "",
+      "43.122131",
+      "141.428317",
+      "VOID FAM",
+      "BigVoid、VoidDeuce、GirlVoid 北海道と東京で活動。ExhibitionBattle & 若手向けKrump Tournament\"NovaCreate\"主催",
+      "void_souljaweight jrglizzlyz_voiddeuce misaki_girlvoid"
     ],
     [
       "2022/11/11 11:17:05",
