@@ -1,5 +1,5 @@
 {
-  "range": "'スポットデータ'!A1:J117",
+  "range": "'スポットデータ'!A1:J118",
   "majorDimension": "ROWS",
   "values": [
     [
@@ -251,6 +251,16 @@
       "SHAZOO FAM",
       "SHAZOO / TWIN SHAZOO / Jr SHAZOO/ micro SHAZOO/ GIRL SHAZOO/ Lil SHAZOO/ princess SHAZOO/ Prince SHAZOO からなる南大阪を拠点に名古屋、東京のイベントにも積極的に参加し、KRUMP BATTLE だけでなくALLSTYLE BATTLEにも積極的に参加し輝かしい実績を残してるFAM",
       "shazoo31o4"
+    ],
+    [
+      "2023/11/28 22:43:00",
+      "北海道（Japan）",
+      "",
+      "43.06022032",
+      "141.3498565",
+      "WEIGHT FAM",
+      "BigWeight、JrWeight、SouljaWeight 北海道札幌市のストリートを中心に常にリアルを求めて活動してます",
+      "weight_50northcreate blvst_ryoma void_souljaweight"
     ],
     [
       "2022/11/11 11:17:05",
